@@ -25,7 +25,7 @@
 
 # Overview
 
-This API provides a way to get an authenticated claims about client's identity and other issued data. 
+This API is an example of a simple authentication service using node.js
 
 Tools for the job:
 1. Koa.js
