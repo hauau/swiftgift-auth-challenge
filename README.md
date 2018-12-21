@@ -1,3 +1,28 @@
+- [Overview](#overview)
+  - [Koa](#koa)
+  - [Passport](#passport)
+  - [JWT](#jwt)
+  - [Authentication](#authentication)
+- [Running](#running)
+  - [Environment variables](#environment-variables)
+  - [User credentials for login](#user-credentials-for-login)
+- [Routes](#routes)
+  - [Issuing token](#issuing-token)
+    - [Request](#request)
+    - [Response](#response)
+  - [Refreshing token](#refreshing-token)
+    - [Request](#request-1)
+    - [Headers](#headers)
+    - [Response](#response-1)
+- [Data endpoits](#data-endpoits)
+  - [Public data](#public-data)
+    - [Request](#request-2)
+    - [Response](#response-2)
+  - [Private data](#private-data)
+    - [Request](#request-3)
+    - [Headers](#headers-1)
+    - [Response](#response-3)
+
 # Overview
 
 This API provides a way to get an authenticated claims about client's identity and other issued data. 
