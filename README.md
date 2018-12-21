@@ -34,7 +34,7 @@ Tools for the job:
 
 ## Koa
 
-Robust and simple framework for serving and handling web requests through async middleware. There's nothing particular about it for a given task of building authentication API service. Minimal overhead provides great transparency and control over implementation. Both perfect for security sensitive application like auth API and demonstrating decisions in a code challenge.
+The robust and simple framework for serving and handling web requests through async middleware. There's nothing particular about it for a given task of building authentication API service. Minimal overhead provides great transparency and control over implementation. Both perfect for security sensitive application like auth API and demonstrating decisions in a code challenge.
 
 ## Passport
 
@@ -42,11 +42,11 @@ This library will provide convenient middleware for Koa to handle authentication
 
 ## JWT
 
-Signed tokens' claims can be verified at the edge without db roundtrip and used with multiple backends as it can carry both session data and authenticity proof. JWT is convinient to work with in web front- and backends.
+Signed tokens' claims can be verified at the edge without DB roundtrip and used with multiple backends as it can carry both session data and authenticity proof. JWT is convenient to work with in web front- and backends.
 
 ## Authentication 
 
-This implementation uses single JWT token. However in certain projects with requirements calling for stricter, more complex auth flow and/or sliding-sessions it makes sense to use separate `refresh` and `access` tokens: `refresh` token for auth server reissuing `access` tokens while making blacklist or other checks and `access` tokens for per-resource access and tracking session. 
+This implementation uses a single JWT token. However in certain projects with requirements calling for stricter, more complex auth flow and/or sliding-sessions it makes sense to use separate `refresh` and `access` tokens: `refresh` token for auth server reissuing `access` tokens while making blacklist or other checks and `access` tokens for per-resource access and tracking session. 
 
 # Running
 
