@@ -62,7 +62,7 @@ Invalid token response:
 ```JS
 {
     "token": "a.b.c",
-    "expires_in": 60 // hours to expiration
+    "expires_in": "30 days" // zeit/ms format
 }
 ```
 
@@ -75,7 +75,7 @@ Invalid token response:
 ```JS
 {
     "token": "a.b.c",
-    "expires_in": 60 // hours to expiration
+    "expires_in": "30 days" // zeit/ms format
 }
 ```
 
